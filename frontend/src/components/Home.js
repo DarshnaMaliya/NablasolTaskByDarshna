@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Tabs, Tab, Box, Typography, Button, Card, Grid } from 
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import CardContent from '@mui/material/CardContent';
 
-const Header = () => {
+const Home = () => {
   return (
     <>
       <AppBar sx={{ background: 'white' }}
@@ -77,4 +77,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Home;
